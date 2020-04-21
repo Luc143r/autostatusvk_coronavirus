@@ -14,3 +14,4 @@ while True:
     status = parsepenza()
     api.status.set(text = status)
     sleep(kd)
+    print('Not sleeping')

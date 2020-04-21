@@ -13,5 +13,6 @@ while True:
     print('Autostatus update')
     status = parsepenza()
     api.status.set(text = status)
-    sleep(kd)
-    print('Not sleeping')
+    for i in range(120):
+        sleep(3)
+        print(i+2)
